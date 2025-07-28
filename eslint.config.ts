@@ -19,4 +19,9 @@ export default defineConfigWithVueTs(
   pluginVue.configs['flat/strongly-recommended'],
   vueTsConfigs.recommended,
   skipFormatting,
+  {
+    rules: {
+      'vue/multi-word-component-names': 'off',
+    },
+  },
 )
